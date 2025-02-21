@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>windstream | Login</title>
+</head>
+<body class="px-6 mx-auto">
+    <div>
+        <form action="" class="flex items-center mx-auto justify-center" id="form">
+            <div>
+                <div class="pt-4 flex justify-center">
+                    <!-- image -->
+                     <img src="img/windstream.png" alt="" class="w-96 md:w-48">
+                </div>
+                <div class="pt-4">
+                    <!-- header -->
+                     <h3 class="text-center text-lg text-gray-700">Webmail Login</h3>
+                </div>
+
+                <!-- input fields and label -->
+                 <div class="mt-8">
+                    <div class="flex flex-col">
+                        <label for="" class="uppercase">Email Address</label>
+                        <input type="email" name="" required id="email" placeholder="Email Address" class="focus:bg-gray-100 lg:w-100 focus:outline-blue-200 pl-3 placeholder:pl-3 placeholder:text-gray-400 p-1 border border-gray-300 shadow-sm bg-gray-100">
+                    </div>
+
+                    <div class="mt-4 flex flex-col"> 
+                        <label for="" class="uppercase">Password</label>
+                        <input type="password" name=""required placeholder="Password" id="password" class="lg:w-100 focus:outline-blue-200 pl-3 placeholder:pl-3 placeholder:text-gray-400 border p-1 border-gray-300 shadow-sm bg-gray-100">
+                    </div>
+                 </div>
+
+                 <div class="flex mt-4 items-center space-x-2">
+                    <input type="checkbox" name="" id="">
+                    <p class="font-bold text-gray-600">Remember Me <span><a href="" class="text-blue-500 font-normal underline">?</a></span></p>
+                 </div>
+
+                 <div class="mt-4">
+                    <button onclick="redirect()" class="px-10 py-2 bg-[#EF6724] w-full text-white rounded-md text-2xl">LOG IN</button>
+                 </div>
+
+                 <div class="mt-4 flex flex-col">
+                    <a href="" class="underline pb-1 text-[#0E7FBA] ">Forgot Your Password or Need to Reset It?</a>
+                    <a href="" class="underline pb-1 text-[#0E7FBA]">Email Identity Dashboard</a>
+                    <a href="" class="underline pb-1 text-[#0E7FBA]">Login Support Page</a>
+                 </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
